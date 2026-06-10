@@ -15,17 +15,19 @@ body{
     background: linear-gradient(45deg, #0c0604 99%, #393838 100%);
 }
 .calculator{
+    width: 95%
+    max width: 380px
     border: 1px solid #b0d2f1;
-    padding: 20px;
+    padding: 15px;
     background: transparent;
     border-radius: 16px;
     box-shadow: 0px 3px 15px rgba(113, 113, 113, 0.5);
 }
 input{
-    width: 320px;
+    width: 100%;
     border: none;
     padding: 24px;
-    margin: 10px;
+    margin: 10px 0;
     background: transparent;
     box-shadow: 0px 3px 15px rgba(254, 251, 252, 0.951);
     font-size: 40px;
@@ -38,9 +40,9 @@ input::placeholder{
 }
 button{
     border: none;
-    width: 70px;
-    height: 70px;
-    margin: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
     border-radius: 50%;
     background: transparent;
     color: white;
